@@ -1,0 +1,52 @@
+{
+  "name": "mybxgulp-app",
+  "version": "1.0.0",
+  "production": "0.0.0",
+  "date": "Tue Aug 15 2017 11:50:16 GMT-0500 (CDT)",
+  "license": "MIT",
+  "engines": {
+    "node": "4.4.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "devDependencies": {
+    "archiver": "^0.21.0",
+    "del": "^2.2.2",
+    "glob": "^6.0.3",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^2.7.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-replace": "^0.6.1",
+    "gulp-shell": "^0.6.3",
+    "istanbul": "^0.4.2",
+    "jasmine": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "lodash": "^4.17.4",
+    "node-notifier": "^5.1.2",
+    "require-reload": "^0.2.2",
+    "rewire": "^2.5.1",
+    "run-sequence": "^1.1.5",
+    "yargs": "^8.0.2"
+  },
+  "dependencies": {
+    "express": "4.15.x",
+    "ejs": "2.5.x",
+    "cloudant": "1.7.x",
+    "body-parser": "1.17.x",
+    "method-override": "2.3.x",
+    "morgan": "1.8.x",
+    "errorhandler": "1.5.x",
+    "connect-multiparty": "2.0.x"
+  }
+}
