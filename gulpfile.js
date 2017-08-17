@@ -283,9 +283,11 @@ gulp.task('bx-rollback', function () {
     }
     else {
 
+        var pkg = reload('./package.json');
+
         var msg = {
             title: 'Deployment Successful!',
-            subtitle: 'Deployed Version: ' + version + ' to ' + space,
+            subtitle: 'Deployed Version: ' + pkg.version + ' to ' + space,
             message: config.bxPath.app + '.' + space  + '.' + config.bxPath.domain + '/info'
         };
         notify(msg);
